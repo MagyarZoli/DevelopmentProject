@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class BridgeTest {
+public class MainBridgeTest {
 
   private Abstraction abs1;
   private Abstraction abs2;
@@ -20,11 +20,5 @@ public class BridgeTest {
   void equalsTest() {
     assertThat(abs1.doSomething()).isEqualTo("Refined: Applying A");
     assertThat(abs2.doSomething()).isEqualTo("Refined: Applying B");
-  }
-
-  @Test
-  void isNotNullTest() {
-    assertThat(abs1).isNotNull();
-    assertThat(abs2).isNotNull();
   }
 }
