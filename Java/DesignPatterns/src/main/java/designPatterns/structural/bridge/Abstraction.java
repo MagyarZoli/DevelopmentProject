@@ -1,4 +1,4 @@
-package designPatterns.structural.adapter.bridge;
+package designPatterns.structural.bridge;
 
 public abstract class Abstraction {
   protected Implementor implementor;

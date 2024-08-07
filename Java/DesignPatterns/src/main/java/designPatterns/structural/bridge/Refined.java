@@ -1,4 +1,4 @@
-package designPatterns.structural.adapter.bridge;
+package designPatterns.structural.bridge;
 
 public class Refined extends Abstraction {
   protected Refined(Implementor implementor) {

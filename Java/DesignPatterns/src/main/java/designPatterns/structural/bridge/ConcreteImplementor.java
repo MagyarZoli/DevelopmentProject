@@ -1,4 +1,4 @@
-package designPatterns.structural.adapter.bridge;
+package designPatterns.structural.bridge;
 
 public class ConcreteImplementor {
   static class A implements Implementor {
