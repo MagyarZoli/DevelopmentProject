@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class CompositeTest {
+public class MainCompositeTest {
   private Leaf.A leafA;
   private Leaf.B leafB;
   private Composite composite;
