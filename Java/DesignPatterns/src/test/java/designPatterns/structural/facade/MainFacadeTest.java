@@ -17,9 +17,4 @@ public class MainFacadeTest {
   void equalsTest() {
     assertThat(facade.start()).isEqualTo("SubClassA, 100, true");
   }
-
-  @Test
-  void isNotNullTest() {
-    assertThat(facade).isNotNull();
-  }
 }
