@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class ChainTest {
+public class MainChainTest {
   private Handler handlerA;
   private Handler handlerB;
 
