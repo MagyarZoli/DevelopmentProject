@@ -4,7 +4,7 @@ import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 
-class SingletonTest {
+class MainSingletonTest {
 
   private lateinit var s1: Singleton
   private lateinit var s2: Singleton
